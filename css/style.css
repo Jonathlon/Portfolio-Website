@@ -252,10 +252,6 @@ button:hover, button:focus {
     opacity: 0.8;
   }
   
-  * {
-    box-sizing: border-box;
-  }
-
   @media all and (max-width: 750px){
     /* shared code */
   }
