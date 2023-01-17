@@ -100,20 +100,20 @@ h3 {
   }
 
 a  {
-  color: #232cdc;
+  color: blue; 
   }
   
-a :visited {
+a:visited {
     /* visited link */
     color: #489c79;
   }
 
-a :hover,a :focus {
+a:hover, a:focus {
     /* No underlining when hovering over a link */
     text-decoration: none;
   }
   
-a :active {
+a:active {
     /* selected link */
     color: #489c79;
   }
