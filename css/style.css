@@ -157,7 +157,7 @@ a:active {
  
   }
   .grid__item {
-    background-color: var(--primary-color); 
+    background-color: var(--secondary-color); 
     width: auto;
     min-height: auto;
     margin: 0;
@@ -180,7 +180,7 @@ footer {
 }
 
 .contact-form {
-  text-align: left; 
+  text-align: center; 
 }
 
 .button, button {
@@ -288,13 +288,14 @@ button:hover, button:focus {
  #path1170, #path1186, #path1190, #path1192, #path1196, #path1198, #path1194, #path1188, #path1202, #path1206,
  #path1204, #path1224, #path1208, #path1226, #path1228, #path1230, #path1232, #path1234, #path1236  
  {
-    animation: 7s bus-move infinite alternate linear;
+    animation: 5s bus-move infinite linear;
+    animation-direction: reverse;
     
   }
 
   @keyframes bus-move {
     from {
-      transform: translate(-7000px, 0);
+      transform: translate(-8000px, 0);
     }
     
   }
