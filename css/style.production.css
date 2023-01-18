@@ -12,6 +12,7 @@ body {
   font-weight:400;
   font-size:16px;
   line-height: 1.6; 
+  text-align: center;
 }
 
  .header {
@@ -38,6 +39,7 @@ body {
 
 .header__item:last-child {
   -webkit-box-flex: 1;
+      
           flex-grow: 1;
   text-align: right;
 }
@@ -117,7 +119,7 @@ a:active {
     color: #489c79;
   }
 
-  #about-me{
+  about-me {
     text-align: center; 
   }
 
@@ -128,6 +130,25 @@ a:active {
      padding-right: 45px;
      font-weight:700;
   }
+
+table {
+ margin: 0 auto;
+}
+
+th {
+    background-color: #fff;
+    padding: 10px;
+    border: 10px; 
+    
+  }
+
+td {
+    background-color: #fff;
+    padding: 10px;
+    border: 10px; 
+    
+  }
+
 
 .grid {
     
@@ -158,7 +179,7 @@ a:active {
  
   }
   .grid__item {
-    background-color: #cbcbcb; 
+    background-color: #fff; 
     width: auto;
     min-height: auto;
     margin: 0;
@@ -183,7 +204,7 @@ footer {
 }
 
 .contact-form {
-  text-align: left; 
+  text-align: center; 
 }
 
 .button {
@@ -345,23 +366,24 @@ button:hover, button:focus {
  #path1170, #path1186, #path1190, #path1192, #path1196, #path1198, #path1194, #path1188, #path1202, #path1206,
  #path1204, #path1224, #path1208, #path1226, #path1228, #path1230, #path1232, #path1234, #path1236  
  {
-    -webkit-animation: 7s bus-move infinite alternate linear;
-            animation: 7s bus-move infinite alternate linear;
+    -webkit-animation: 5s bus-move infinite linear;
+            animation: 5s bus-move infinite linear;
+    animation-direction: reverse;
     
   }
 
   @-webkit-keyframes bus-move {
     from {
-      -webkit-transform: translate(-7000px, 0);
-              transform: translate(-7000px, 0);
+      -webkit-transform: translate(-8000px, 0);
+              transform: translate(-8000px, 0);
     }
     
   }
 
   @keyframes bus-move {
     from {
-      -webkit-transform: translate(-7000px, 0);
-              transform: translate(-7000px, 0);
+      -webkit-transform: translate(-8000px, 0);
+              transform: translate(-8000px, 0);
     }
     
   }
