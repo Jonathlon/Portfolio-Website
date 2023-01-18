@@ -23,6 +23,7 @@
   font-weight:var(--fontweight-small);
   font-size:var(--fontsize-s);
   line-height: 1.6; 
+  text-align: center;
 }
 
  .header {
@@ -121,7 +122,7 @@ a:active {
     color: var(--color-green);
   }
 
-  #about-me{
+  about-me {
     text-align: center; 
   }
 
@@ -132,6 +133,18 @@ a:active {
      padding-right: 45px;
      font-weight:var(--fontweight-large);
   }
+
+table {
+ margin: 0 auto;
+}
+
+th, td {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border: 10px; 
+    
+  }
+
 
 .grid {
     
