@@ -6,35 +6,36 @@
 		<title>Jon's Portfolio Page</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./css/style.production.css"/>   
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>   
         <link rel="shortcut icon" type="image/png" href=".//img/favicon-16x16.png" sizes="16x16" />
 	</head>	
 
 	<body>
         <header>
           <div class="header">
-           <img id="logo" src=".//img/Jon Heaney Logo.jpg" alt="Jon Heaney logo" width="200px"> 
-           <nav>
-            <ul role="menubar" class="navigation-list" >
-              <li role="presentation">
-                <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-              </li>
-              <li role="presentation">
-                <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
-              </li>
-              <li role="presentation">
-                <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-              </li>
-              <li role="presentation">
-                <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-              </li>
+           <!-- <img class="logo" src=".//img/Jon Heaney Logo.jpg" alt="Jon Heaney logo" width="200px">  -->
+           
+           <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+            
+              <span></span>
+              <span></span>
+              <span></span>
               
-            </ul>
-          </nav>      
-          </div>
+              <ul id="menu">
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="work.html"><li>Work</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                
+              </ul>
+              
+            </div>
+          </nav>                 
+         </div>
         </header>
-
-               
+<br><br><br><br><br>               
         <main>
           <div class="profile">
             <img id="profile-picture" src=".//img/img_1035.jpg" alt="Profile Picute"> 
