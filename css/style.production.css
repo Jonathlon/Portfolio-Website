@@ -55,7 +55,11 @@ body {
 
 .work-image {
     width: 600px;
+<<<<<<< Updated upstream
 }
+=======
+    }
+>>>>>>> Stashed changes
 
 li {
   display: inline-block;
