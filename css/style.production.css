@@ -54,9 +54,14 @@ body {
 } 
 
 .work-image {
-    width: 600px;
-}
+    width: 400px;
+    height: 200px;
     }
+  
+  .work-image-ang{
+      width: 400px;
+      height: 150px;
+  }
 
 li {
   display: inline-block;
