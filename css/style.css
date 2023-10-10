@@ -41,27 +41,22 @@
     margin: auto;
     max-width: 100%;
   }
+
+  .work-image {
+    width: 400px;
+    height: 200px;
+    }
+  
+  .work-image-ang{
+      width: 400px;
+      height: 150px;
+  }
   
   
   
   .profile {
     max-width: 700px;
     margin: 0 auto;
-  }
-  
-  .work-image {
-  width: 400px;
-  height: 200px;
-  }
-
-.work-image-ang{
-    width: 400px;
-    height: 150px;
-}
-
-  .phone-image {
-    width: 400px;
-    height: 375px;
   }
   
   #menuToggle {
@@ -229,7 +224,6 @@
     font-size: var(--fontsize-sm);
     font-weight: var(--fontweight-small);
     text-align: center;
-   
   }
   
   a {
@@ -270,7 +264,7 @@
   
   th,
   td {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding: 10px;
     border: 10px;
   
@@ -282,7 +276,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    
   
   }
   
@@ -299,20 +292,16 @@
       display: grid;
       /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
       grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 30px;
-      margin: 125px;
+      grid-gap: 20px;
+      margin: 0;
   
     }
   
     .grid__item {
       background-color: var(--secondary-color);
       width: auto;
-      min-height: 600px;
-      width: 500px;
-      margin: auto;
-      border-radius: 6px;
-      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.7);
-      padding: 20px;
+      min-height: auto;
+      margin: 0;
     }
   }
   
