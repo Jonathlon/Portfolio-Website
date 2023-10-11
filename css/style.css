@@ -34,9 +34,11 @@
   }
 
 header{
-    background-color: var(--primary-color);
+    background-color: rgb(136, 135, 135);
     text-align: right;
     display: grid;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.7);
+   
 }    
 .navbar{
     min-height: 70px;
@@ -313,6 +315,21 @@ header{
       cursor: pointer;
       /* reduces the opacity of the button to 80% */
       opacity: 0.8;
+    }
+
+    @media (max-width: 1200px){
+        .grid {
+            grid-template-columns: 1fr 1fr;   
+            grid-gap: 10px;
+           }
+          
+          .grid__item:last-child {
+            grid-column: auto / auto;
+            grid-row: auto / auto;
+          }
+          h1 {
+            font-size:var(--fontsize-ml);
+          }
     }
     
     @media (max-width: 768px){
