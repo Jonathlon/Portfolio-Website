@@ -5,6 +5,24 @@
 * Browsers: last 4 version
 */
 
+:root {
+    --primary-color: #cbcbcb;
+    --secondary-color: #fff;
+    --color-blue: #2932dc;
+    --color-green: #489c79;
+    --color-darkgreen: #357b70;
+    --fontsize-vs: 12px;
+    --fontsize-s: 14px; 
+    --fontsize-sm: 18px;
+    --fontsize-m: 20px;
+    --fontsize-ml: 22px;
+    --fontsize-l: 30px;
+    --fontweight-small: 400;
+    --fontweight-large: 700;
+    --fontweight-bold: bold;
+  
+  }  
+
 body {
         
     background-color: var(--primary-color); 
